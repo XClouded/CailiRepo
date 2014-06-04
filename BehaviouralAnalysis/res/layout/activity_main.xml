@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goto activity test a"
+        android:id="@+id/gotoactivitytesta"/>
+    
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goto activity test b"
+        android:layout_marginTop="50dp"
+        android:id="@+id/gotoactivitytestb"/>
+    
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="听歌"
+        android:layout_marginTop="300dp"
+        android:id="@+id/bt1"/>
+    
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="听歌《一生有你》"
+        android:layout_marginTop="100dp"
+        android:id="@+id/bt2"/>
+    
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="听了60秒歌《一生有你》"
+        android:layout_marginTop="150dp"
+        android:id="@+id/bt3"/>    
+    
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="听了3次《一生有你》"
+        android:layout_marginTop="200dp"
+        android:id="@+id/bt4"/>    
+    
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crash一次"
+        android:layout_marginTop="250dp"
+        android:id="@+id/bt5"
+        android:visibility="gone"/>    
+    
+<!--     <TextView -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         android:layout_centerVertical="true" -->
+<!--         android:padding="@dimen/padding_medium" -->
+<!--         android:text="@string/hello_world" -->
+<!--         tools:context=".MainActivity" /> -->
+
+</RelativeLayout>
