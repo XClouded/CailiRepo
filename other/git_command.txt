@@ -1,0 +1,8 @@
+//第一次checkout 命令
+git clone https://github.com/cailisuola/TCU
+
+//更新
+git pull https://github.com/cailisuola/TCU initial_arch
+
+//编译
+mvn clean install
